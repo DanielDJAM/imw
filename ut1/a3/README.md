@@ -27,7 +27,7 @@ Recargamos el nginx y comprobamos.
 ![05](img/reload.png)
 ![06](img/05.png)
 
-Ya tenemos creado todo lo relacionado con imw, por lo que vamos a trabajar con ***mec***. Creamos un index y añadimos un enlace que nos lleve al Real Decreto del título de administración de Sistemas informáticos en Red mediante.
+Ya tenemos creado todo lo relacionado con imw, por lo que vamos a trabajar con ***mec***. Creamos un index y añadimos un enlace que nos lleve al Real Decreto del título de administración de Sistemas informáticos en Red.
 
 ![07](img/06.png)
 
