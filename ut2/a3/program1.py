@@ -1,11 +1,12 @@
 import sys
 i = int(sys.argv[1])
 if i <= 0:
-    sys.exit("Error")
-else:
+    sys.exit('Error')
+if i > 0:
     for j in range(2, i):
-        if j % i == 0:
-            print("es primo")
-            break
-    else:
-        print("no es primo")
+        k = i % j
+        if k == 0:
+            print('no es primo')
+        else:
+            print('es primo')
+        break

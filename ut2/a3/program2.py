@@ -1,11 +1,11 @@
 import sys
 
 num = int(sys.argv[1])
-secuencia=0
+sec=0
 if num < 0:
-    sys.exit("Error. Solo admite números positivos")
+    sys.exit('Error. Solo admite números positivos')
 else:
-    for bucle in range(1, num+1):
-            var1 = bucle ** 2
-            secuencia = secuencia + var1
+    for loop1 in range(1, num+1):
+            value1 = loop1 ** 2
+            sec = sec + value1
     print(secuencia)
