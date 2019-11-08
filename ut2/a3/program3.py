@@ -4,7 +4,7 @@ num1 = int(sys.argv[1])
 num2 = int(sys.argv[2])
 
 if num1 <= 0 or num2 <= 0:
-    sys.exit('Error. Solo admite números positivos's)
+    sys.exit('Error. Solo admite números positivos')
 if num1 < num2:
     num1, num2 = num2, num1
 if num1 > num2:
