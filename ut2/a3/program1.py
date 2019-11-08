@@ -1,4 +1,5 @@
 import sys
+
 num = int(sys.argv[1])
 if num <= 0:
     sys.exit('Error')
