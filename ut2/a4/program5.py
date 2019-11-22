@@ -1,17 +1,15 @@
 import sys
 
-chain_num = sys.argv[1:]
+chain_num = [sys.argv[1:]]
 count_num = 0
 count_chain = 0
-range = 0
+chain2 = []
 
-for value1 in chain_num:
-    range = value1 - range
-    chain = 
+chain = chain_num.split()
+for i in range(1, len(chain), 2):
+
+    for k in range(0, len(chain), 2):
+        j = i - k
 
 
-
-
-    count_chain = float(value1) + count_chain
-final = count_chain / count_num
-print(f'La media de los valores es:{final}')
+print(j)
