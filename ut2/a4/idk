@@ -1,0 +1,6 @@
+for value1 in chain:
+if range == 0:
+    range = float(value1) - range
+    chain2.append(range)
+else:
+    range = 0
