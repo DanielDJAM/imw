@@ -34,11 +34,30 @@ def length(text):
     return length
 
 def halfs(text):
-    length = len(text)
-    length2 = length / 2
-    phrase = text.split(length, 1)
-    halfs = phrase[length2] = ' | '
-    return halfs
+    half = len(text) // 2
+    text2 = text[0:half] + ' | ' + text[half:]
+    return text2
+
+def upper_vowels(text):
+    text2 = ""
+    for char in text:
+        if char in 'aeiou':
+            char = char.upper()
+        text2 += char
+    return text2
+
+def sorted_by_words(text):
+    text2 = text.split()
+    text2.sort()
+    text = ' '.join(text2)
+    return text
+
+def length_of_words(text):
+    text3 = ''
+    text2 = text.split()
+    for i in text2:
+        text3 += (str(len(i)) + ' ')
+    return text3
 
 if __name__ == '__main__':
     text = sys.argv[1]
@@ -49,4 +68,7 @@ if __name__ == '__main__':
     Number of words:{num_words(text)}
     Reverse of text:{reverse(text)}
     Length of text:{length(text)}
-    Halfs of text:{halfs(text)}''')
+    Halfs of text:{halfs(text)}
+    Text with uppercased vowels:{upper_vowels(text)}
+    Sorted by words:{sorted_by_words(text)}
+    Length of words:{length_of_words(text)}''')
