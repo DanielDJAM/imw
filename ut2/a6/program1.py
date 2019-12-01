@@ -9,7 +9,7 @@ def count_words(text):
         if words in summary:
             summary[words] += 1
         else:
-            summary[words] += 1
+            summary[words] = 1
     return summary
 
 if __name__ == '__main__':
