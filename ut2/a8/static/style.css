@@ -1,0 +1,45 @@
+.contenedor {
+    border-radius: 15px;
+    background-color: lightblue;
+    height: 280px;
+    width: 350px;
+    float: left;
+}
+
+h1 {
+    color: black;
+    padding-left: 2%;
+}
+
+h2 {
+    color: steelblue;
+    padding-left: 2%;
+}
+
+body {
+    padding: 20px;
+  	margin: 20px 60px;
+}
+
+.results_table  {
+    border-radius: 10px;
+    background-color: #D7D7D7;
+}
+
+
+.lanzador  {
+    padding-top: 10px;
+    padding-right: 10px;
+	  text-align: right;
+	  margin: 0 auto;
+}
+
+.proceso {
+    border-radius: 15px;
+    background-color: lightblue;
+  	font-family: arial;
+}
+<<<<<<< HEAD
+
+=======
+>>>>>>> c57c6aab849f3b4d0f222ffb8589d8470aeb78ea

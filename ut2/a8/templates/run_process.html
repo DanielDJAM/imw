@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC>
+<html lang="es">
+<head>
+	<title>Start Process</title>
+	<link rel="stylesheet" type="text/css" href="/static/style.css"/>
+</head>
+
+<body>
+    <table border="3px">
+        <tr>
+            <td>
+                <h2>Start Process</h2>
+                    <form method="post" action="/run_process">
+                        <table>
+                            <tr>
+                                <td>PID</td>
+                                <td><input type="text" name="pid" required></td>
+                            </tr>
+                            <tr>
+                                <td>RAM</td>
+                                <td><input type="text" name="ram" required></td>
+                            </tr>
+                            <tr>
+                                <td>CPU</td>
+                                <td><input type="text" name="cpu" required></td>
+                            </tr>
+                            <tr>
+                                <td>HDD</td>
+                                <td><input type="text" name="hdd" required></td>
+                            </tr>
+                            <tr>
+                                <td><input type="submit" value="Go"/></td>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+    </table>
+</body>
+
+</html>
