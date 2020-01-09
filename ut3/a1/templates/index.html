@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Mi máquina virtual</title>
+        <link rel="stylesheet" type="text/css" href="/static/style.css"/>
+    </head>
+    <body>
+        <h1>{{ vmachine.name }}</h1>
+        <h2>{{ vmachine.os }}</h2>
+        <h3>{{ vmachine.get_status() }}</h3>
+
+        <a href="/change_status/0">Parar</a>
+        <a href="/change_status/1">Arrancar</a>
+        <a href="/change_status/2">Suspender</a>
+
+        <table>
+            <tr>
+                <th></th>
+                <th>TOTAL</th>
+                <th>% USADO</th>
+            </tr>
+            <tr>
+                <td>RAM</td>
+                <td>{{ vmachine.ram }}GB</td>
+                <td>{{ "{:.2f}".format(vmachine.ram_usage()) }}%</td>
+            </tr>
+            <tr>
+                <td>CPU</td>
+                <td>{{ vmachine.cpu }}Ghz</td>
+                <td>{{ "{:.2f}".format(vmachine.cpu_usage()) }}%</td>
+            </tr>
+            <tr>
+                <td>RAM</td>
+                <td>{{ vmachine.hdd }}MB</td>
+                <td>{{ "{:.2f}".format(vmachine.hdd_usage()) }}%</td>
+            </tr>
+        </table>
+
+        <a href="/run_process">Lanzar proceso</a>
+
+        {% for p in vmachine.get_processes() %}
+            <div class="process">
+                <h2>Proceso {{ p["pid"] }}</h2>
+                RAM: {{ p["ram"] }}GB | CPU: {{ p["cpu"] }}Ghz | HDD: {{ p["hdd"] }}MB
+            </div>
+        {% endfor %}
+    </body>
+</html>

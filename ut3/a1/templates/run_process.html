@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Mi máquina virtual</title>
+        <link rel="stylesheet" type="text/css" href="/static/style.css"/>
+    </head>
+    <body>
+        <h1>Lanzar proceso</h1>
+        <form action="/run_process" method="post">
+            <div class="form-row">
+                <label>PID</label>
+                <input type="text" name="pid">
+            </div>
+            <div class="form-row">
+                <label>RAM</label>
+                <input type="text" name="ram">
+            </div>
+            <div class="form-row">
+                <label>CPU</label>
+                <input type="text" name="cpu">
+            </div>
+            <div class="form-row">
+                <label>HDD</label>
+                <input type="text" name="hdd">
+            </div>
+
+            <input type="submit" value="Ejecutar!">
+        </form>
+    </body>
+</html>
