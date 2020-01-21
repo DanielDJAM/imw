@@ -1,14 +1,15 @@
 # Implantación de Wordpress
 
-## Configuración de base de datos
 ---
+## Configuración de base de datos
+
 Primero iremos a MySQL y crearemos una base de datos
 junto con un usuario y sus respectivos permisos.
 
 ![01](img/01.png)
 
-## Descarga de código
 ---
+## Descarga de código
 
 Descargamos el código fuente de Wordpress desde su página web.
 
@@ -23,9 +24,8 @@ Ahora tenemos que establecer los permisos necesarios para que el usuario web www
 
 ![05](img/05.png)
 
-
-## Editar ficheros de configuración
 ---
+## Editar ficheros de configuración
 
 Para una configuración básica de WordPress debemos especificar lo siguiente:
 
@@ -39,8 +39,8 @@ Aproximadamente en la línea 23.
 
 ![07](img/07.png)
 
-## Acceso mediante Nginx
 ---
+## Acceso mediante Nginx
 
 PAra que nuestro sitio Wordpress sea accesible desde un navegador web, debemos incluir las directivas necesarias en la configuración del servidor web Nginx.
 
@@ -70,9 +70,8 @@ Recargamos el servidor de Nginx para que los cambios sean efectivos.
 
 ![11](img/11.png)
 
-
-## Configuración del sitio vía web
 ---
+## Configuración del sitio vía web
 
 Ahora podemos acceder a la dirección de nuestro servidor para configurar nuestro Wordpress vía web.
 
@@ -92,9 +91,8 @@ Pulsamos en el boton acceder e ingresamos nuestras credenciales.
 
 Así habremos podido acceder a la interfaz administrativa de WordPress.
 
-
-## Ajuste de permalinks
 ---
+## Ajuste de permalinks
 
 En primer lugar activamos esta opción dentro de la interfaz administrativa de Wordpress. Seleccionamos el ajuste Día y nombre. Pulsamos en guardar cambios.
 
@@ -116,9 +114,8 @@ No olvidarnos de recargar la configuración.
 
 ![18](img/18.png)
 
-
-## Límite de tamaño en la subida de archivos
 ---
+## Límite de tamaño en la subida de archivos
 
 Por defecto, el límite de subida de archivos para aplicaciones PHP suele ser bastante bajo, en torno a los 2MB.
 
@@ -162,9 +159,8 @@ A continuación reiniciamos el servidor web Nginx para que tengan efectos los ca
 
 ![24](img/24.png)
 
-
-## Estructura de ficheros
 ---
+## Estructura de ficheros
 
 ```
 alu5894@cloud:~$ cd /usr/share/wordpress/wp-content/
