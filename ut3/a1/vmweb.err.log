@@ -613,3 +613,52 @@ invalid request block size: 21327 (max 4096)...skip
 invalid request block size: 21573 (max 4096)...skip
 invalid request block size: 21573 (max 4096)...skip
 invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21584 (max 4096)...skip
+invalid request block size: 22359 (max 4096)...skip
+invalid request block size: 21587 (max 4096)...skip
+invalid request block size: 28171 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 40]
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 40]
+invalid request block size: 21584 (max 4096)...skip
+invalid request block size: 21584 (max 4096)...skip
+-- unavailable modifier requested: 128 --
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 40]
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 40]
+invalid request block size: 19525 (max 4096)...skip
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 3 --
+-- unavailable modifier requested: 22 --
+Empty python request. skip.
+[pid: 2219|app: -1|req: -1/111]  () {0 vars in 0 bytes} [Fri Feb 14 18:35:40 2020]   => generated 0 bytes in 2 msecs ( 0) 0 headers in 0 bytes (0 switches on core 0)
+Empty python request. skip.
+[pid: 2219|app: -1|req: -1/112]  () {0 vars in 0 bytes} [Fri Feb 14 18:35:40 2020]   => generated 0 bytes in 0 msecs ( 0) 0 headers in 0 bytes (0 switches on core 0)
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 40]
+invalid request block size: 25956 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 40]
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 40]
+invalid request block size: 19790 (max 4096)...skip
+-- unavailable modifier requested: 3 --
+invalid request block size: 25709 (max 4096)...skip
+-- unavailable modifier requested: 58 --
+invalid request block size: 19794 (max 4096)...skip
+-- unavailable modifier requested: 1 --
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 40]
+invalid uwsgi request (current strsize: 0). skip.
+[pid: 2219|app: -1|req: -1/116]  () {0 vars in 1 bytes} [Fri Feb 14 18:35:50 2020]   => generated 0 bytes in 0 msecs ( 500) 0 headers in 0 bytes (0 switches on core 0)
+uwsgi key cannot be null. skip this var.
+[pid: 2219|app: -1|req: -1/117]  () {0 vars in 3 bytes} [Fri Feb 14 18:35:50 2020]   => generated 0 bytes in 0 msecs ( 500) 0 headers in 0 bytes (0 switches on core 0)
+invalid request block size: 20297 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 40]
+Empty python request. skip.
+[pid: 2219|app: -1|req: -1/118]  () {0 vars in 0 bytes} [Fri Feb 14 18:35:52 2020]   => generated 0 bytes in 0 msecs ( 0) 0 headers in 0 bytes (0 switches on core 0)
+-- unavailable modifier requested: 3 --
+-- unavailable modifier requested: 1 --
+Empty python request. skip.
+[pid: 2219|app: -1|req: -1/121]  () {0 vars in 0 bytes} [Fri Feb 14 18:35:53 2020]   => generated 0 bytes in 0 msecs ( 0) 0 headers in 0 bytes (0 switches on core 0)
+invalid request block size: 12873 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
