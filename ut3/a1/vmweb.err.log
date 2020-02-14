@@ -42,3 +42,574 @@ spawned uWSGI worker 1 (and the only) (pid: 2219, cores: 1)
 [pid: 2219|app: 0|req: 14/14] 88.19.181.50 () {44 vars in 743 bytes} [Tue Jan 14 12:41:39 2020] GET /run_process => generated 873 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
 [pid: 2219|app: 0|req: 15/15] 88.19.181.50 () {44 vars in 751 bytes} [Tue Jan 14 12:41:44 2020] GET /change_status/2 => generated 209 bytes in 6 msecs (HTTP/1.1 302) 3 headers in 119 bytes (1 switches on core 0)
 [pid: 2219|app: 0|req: 16/16] 88.19.181.50 () {44 vars in 721 bytes} [Tue Jan 14 12:41:44 2020] GET / => generated 999 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 14387 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21584 (max 4096)...skip
+invalid request block size: 22359 (max 4096)...skip
+invalid request block size: 21587 (max 4096)...skip
+invalid request block size: 28171 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Success [proto/uwsgi.c line 40]
+invalid request block size: 21584 (max 4096)...skip
+invalid request block size: 21584 (max 4096)...skip
+-- unavailable modifier requested: 128 --
+uwsgi_proto_uwsgi_parser(): Resource temporarily unavailable [proto/uwsgi.c line 40]
+uwsgi_proto_uwsgi_parser(): Resource temporarily unavailable [proto/uwsgi.c line 40]
+invalid request block size: 19525 (max 4096)...skip
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 3 --
+-- unavailable modifier requested: 22 --
+Empty python request. skip.
+[pid: 2219|app: -1|req: -1/21]  () {0 vars in 0 bytes} [Thu Jan 16 12:18:17 2020]   => generated 0 bytes in 0 msecs ( 0) 0 headers in 0 bytes (0 switches on core 0)
+Empty python request. skip.
+[pid: 2219|app: -1|req: -1/22]  () {0 vars in 0 bytes} [Thu Jan 16 12:18:17 2020]   => generated 0 bytes in 0 msecs ( 0) 0 headers in 0 bytes (0 switches on core 0)
+uwsgi_proto_uwsgi_parser(): Resource temporarily unavailable [proto/uwsgi.c line 40]
+invalid request block size: 25956 (max 4096)...skip
+invalid request block size: 19790 (max 4096)...skip
+-- unavailable modifier requested: 3 --
+invalid request block size: 25709 (max 4096)...skip
+-- unavailable modifier requested: 58 --
+invalid request block size: 19794 (max 4096)...skip
+-- unavailable modifier requested: 1 --
+uwsgi_proto_uwsgi_parser(): Resource temporarily unavailable [proto/uwsgi.c line 40]
+invalid uwsgi request (current strsize: 0). skip.
+[pid: 2219|app: -1|req: -1/26]  () {0 vars in 1 bytes} [Thu Jan 16 12:18:44 2020]   => generated 0 bytes in 0 msecs ( 500) 0 headers in 0 bytes (0 switches on core 0)
+uwsgi key cannot be null. skip this var.
+[pid: 2219|app: -1|req: -1/27]  () {0 vars in 3 bytes} [Thu Jan 16 12:18:45 2020]   => generated 0 bytes in 0 msecs ( 500) 0 headers in 0 bytes (0 switches on core 0)
+invalid request block size: 20297 (max 4096)...skip
+Empty python request. skip.
+[pid: 2219|app: -1|req: -1/28]  () {0 vars in 0 bytes} [Thu Jan 16 12:18:53 2020]   => generated 0 bytes in 0 msecs ( 0) 0 headers in 0 bytes (0 switches on core 0)
+-- unavailable modifier requested: 3 --
+-- unavailable modifier requested: 1 --
+Empty python request. skip.
+[pid: 2219|app: -1|req: -1/31]  () {0 vars in 0 bytes} [Thu Jan 16 12:18:59 2020]   => generated 0 bytes in 0 msecs ( 0) 0 headers in 0 bytes (0 switches on core 0)
+invalid request block size: 12873 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 16709 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+Fri Jan 17 10:13:55 2020 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 88.19.181.50) !!!
+[2020-01-17 10:13:55,570] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/alu5894/.local/share/virtualenvs/a1-l2xFSyFm/lib/python3.7/site-packages/pymysql/connections.py", line 713, in _write_bytes
+    self._sock.sendall(data)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alu5894/.local/share/virtualenvs/a1-l2xFSyFm/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/alu5894/.local/share/virtualenvs/a1-l2xFSyFm/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/alu5894/.local/share/virtualenvs/a1-l2xFSyFm/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/alu5894/.local/share/virtualenvs/a1-l2xFSyFm/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/alu5894/.local/share/virtualenvs/a1-l2xFSyFm/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/alu5894/.local/share/virtualenvs/a1-l2xFSyFm/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./main.py", line 13, in index
+    return render_template("index.html", vmachine=vmachine)
+  File "/home/alu5894/.local/share/virtualenvs/a1-l2xFSyFm/lib/python3.7/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/home/alu5894/.local/share/virtualenvs/a1-l2xFSyFm/lib/python3.7/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/home/alu5894/.local/share/virtualenvs/a1-l2xFSyFm/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/alu5894/.local/share/virtualenvs/a1-l2xFSyFm/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/alu5894/.local/share/virtualenvs/a1-l2xFSyFm/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/alu5894/.local/share/virtualenvs/a1-l2xFSyFm/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/alu5894/imw/ut3/a1/templates/index.html", line 9, in top-level template code
+    <h3>{{ vmachine.get_status() }}</h3>
+  File "./vm.py", line 75, in get_status
+    r = self.db.run(sql)
+  File "./mysql.py", line 28, in run
+    cursor.execute(sql)
+  File "/home/alu5894/.local/share/virtualenvs/a1-l2xFSyFm/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/alu5894/.local/share/virtualenvs/a1-l2xFSyFm/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/alu5894/.local/share/virtualenvs/a1-l2xFSyFm/lib/python3.7/site-packages/pymysql/connections.py", line 516, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/home/alu5894/.local/share/virtualenvs/a1-l2xFSyFm/lib/python3.7/site-packages/pymysql/connections.py", line 771, in _execute_command
+    self._write_bytes(packet)
+  File "/home/alu5894/.local/share/virtualenvs/a1-l2xFSyFm/lib/python3.7/site-packages/pymysql/connections.py", line 718, in _write_bytes
+    "MySQL server has gone away (%r)" % (e,))
+pymysql.err.OperationalError: (2006, "MySQL server has gone away (BrokenPipeError(32, 'Broken pipe'))")
+[pid: 2219|app: 0|req: 17/32] 88.19.181.50 () {40 vars in 733 bytes} [Fri Jan 17 10:13:55 2020] GET / => generated 290 bytes in 47 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+[pid: 2219|app: 0|req: 18/33] 88.19.181.50 () {40 vars in 681 bytes} [Fri Jan 17 10:13:55 2020] GET /favicon.ico => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 2219|app: 0|req: 19/34] 88.19.181.50 () {40 vars in 733 bytes} [Fri Jan 17 10:14:01 2020] GET / => generated 999 bytes in 45 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 2219|app: 0|req: 20/35] 88.19.181.50 () {42 vars in 795 bytes} [Fri Jan 17 10:14:05 2020] GET /run_process => generated 873 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 2219|app: 0|req: 21/36] 88.19.181.50 () {50 vars in 990 bytes} [Fri Jan 17 10:14:11 2020] POST /run_process => generated 209 bytes in 11 msecs (HTTP/1.1 302) 3 headers in 119 bytes (1 switches on core 0)
+[pid: 2219|app: 0|req: 22/37] 88.19.181.50 () {44 vars in 815 bytes} [Fri Jan 17 10:14:12 2020] GET / => generated 1151 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 2219|app: 0|req: 23/38] 88.19.181.50 () {42 vars in 803 bytes} [Fri Jan 17 10:14:15 2020] GET /change_status/2 => generated 209 bytes in 8 msecs (HTTP/1.1 302) 3 headers in 119 bytes (1 switches on core 0)
+[pid: 2219|app: 0|req: 24/39] 88.19.181.50 () {42 vars in 773 bytes} [Fri Jan 17 10:14:15 2020] GET / => generated 1151 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 2219|app: 0|req: 25/40] 88.19.181.50 () {42 vars in 803 bytes} [Fri Jan 17 10:14:16 2020] GET /change_status/1 => generated 209 bytes in 5 msecs (HTTP/1.1 302) 3 headers in 119 bytes (1 switches on core 0)
+[pid: 2219|app: 0|req: 26/41] 88.19.181.50 () {42 vars in 773 bytes} [Fri Jan 17 10:14:16 2020] GET / => generated 1149 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 2219|app: 0|req: 27/42] 88.19.181.50 () {42 vars in 803 bytes} [Fri Jan 17 10:14:17 2020] GET /change_status/0 => generated 209 bytes in 11 msecs (HTTP/1.1 302) 3 headers in 119 bytes (1 switches on core 0)
+[pid: 2219|app: 0|req: 28/43] 88.19.181.50 () {42 vars in 773 bytes} [Fri Jan 17 10:14:18 2020] GET / => generated 997 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 2219|app: 0|req: 29/44] 88.19.181.50 () {42 vars in 803 bytes} [Fri Jan 17 10:14:19 2020] GET /change_status/1 => generated 209 bytes in 7 msecs (HTTP/1.1 302) 3 headers in 119 bytes (1 switches on core 0)
+[pid: 2219|app: 0|req: 30/45] 88.19.181.50 () {42 vars in 773 bytes} [Fri Jan 17 10:14:19 2020] GET / => generated 997 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 3 --
+-- unavailable modifier requested: 3 --
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 4 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 16709 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 53652 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 35]
+invalid request block size: 21573 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 35]
+-- unavailable modifier requested: 3 --
+-- unavailable modifier requested: 3 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 16709 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 35]
+invalid request block size: 21573 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 35]
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 16709 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 14387 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 16709 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+-- unavailable modifier requested: 4 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21584 (max 4096)...skip
+invalid request block size: 22359 (max 4096)...skip
+invalid request block size: 21584 (max 4096)...skip
+invalid request block size: 21584 (max 4096)...skip
+-- unavailable modifier requested: 128 --
+invalid request block size: 19525 (max 4096)...skip
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+Empty python request. skip.
+[pid: 2219|app: -1|req: -1/55]  () {0 vars in 0 bytes} [Fri Jan 24 04:03:09 2020]   => generated 0 bytes in 0 msecs ( 0) 0 headers in 0 bytes (0 switches on core 0)
+Empty python request. skip.
+[pid: 2219|app: -1|req: -1/56]  () {0 vars in 0 bytes} [Fri Jan 24 04:03:09 2020]   => generated 0 bytes in 0 msecs ( 0) 0 headers in 0 bytes (0 switches on core 0)
+invalid request block size: 25956 (max 4096)...skip
+invalid request block size: 19790 (max 4096)...skip
+-- unavailable modifier requested: 3 --
+invalid request block size: 25709 (max 4096)...skip
+-- unavailable modifier requested: 58 --
+invalid request block size: 19794 (max 4096)...skip
+-- unavailable modifier requested: 1 --
+uwsgi key cannot be null. skip this var.
+[pid: 2219|app: -1|req: -1/60]  () {0 vars in 3 bytes} [Fri Jan 24 04:03:25 2020]   => generated 0 bytes in 0 msecs ( 500) 0 headers in 0 bytes (0 switches on core 0)
+invalid request block size: 20297 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 128 --
+-- unavailable modifier requested: 3 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 16709 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 22 --
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 4 --
+-- unavailable modifier requested: 4 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 16709 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 35]
+invalid request block size: 53652 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 3 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 14387 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 16709 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 16709 (max 4096)...skip
+-- unavailable modifier requested: 4 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 16709 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 22 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 16709 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 35]
+invalid request block size: 21573 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 35]
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 16709 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 22 --
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 3 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 53652 (max 4096)...skip
+-- unavailable modifier requested: 3 --
+-- unavailable modifier requested: 3 --
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 14387 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 16709 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 3 --
+-- unavailable modifier requested: 3 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+-- unavailable modifier requested: 3 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+-- unavailable modifier requested: 4 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 22 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 3 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 16709 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 3 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 16709 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 16709 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 53652 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 14387 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 35]
+invalid request block size: 21573 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 35]
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
